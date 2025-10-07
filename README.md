@@ -24,7 +24,7 @@ Para garantir a segurança e o isolamento dos testes, foi configurado um ambient
     * Teste de conectividade realizado com sucesso via comando `ping`.
 
 _Imagem da topologia de rede (opcional):_
-`![Topologia de Rede](./images/network-setup.png)`
+`![Topologia de Rede](https://github.com/celloweb-ai/brute_force_attack/blob/main/images/network-setup.png)`
 
 ---
 
