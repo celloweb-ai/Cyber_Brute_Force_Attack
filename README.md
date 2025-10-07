@@ -29,7 +29,7 @@ _Imagem da topologia de rede:_
     src="https://github.com/celloweb-ai/brute_force_attack/blob/main/images/network-setup.png"
     width="400"  
 />
-</p>`
+</p>
 
 ---
 
