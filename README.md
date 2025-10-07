@@ -129,7 +129,7 @@ A principal lição aprendida é que a segurança é um processo em camadas. Uma
 
 **Autor**
 
-[Seu Nome Completo]
+[Marcus Vasconcellos]
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-usuario-aqui/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcusvasconcellos/)
 [![Perfil DIO](https://img.shields.io/badge/DIO-20232A?style=for-the-badge)](https://web.dio.me/users/seu-usuario-aqui)
