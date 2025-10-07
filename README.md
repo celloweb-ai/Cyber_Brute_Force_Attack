@@ -23,8 +23,13 @@ Para garantir a segurança e o isolamento dos testes, foi configurado um ambient
     * IP do Metasploitable 2: `[IP_DO_METASPLOITABLE]`
     * Teste de conectividade realizado com sucesso via comando `ping`.
 
-_Imagem da topologia de rede (opcional):_
-`![Topologia de Rede](https://github.com/celloweb-ai/brute_force_attack/blob/main/images/network-setup.png)`
+_Imagem da topologia de rede:_
+<p align="center">
+<img 
+    src="https://github.com/celloweb-ai/brute_force_attack/blob/main/images/network-setup.png"
+    width="400"  
+/>
+</p>`
 
 ---
 
