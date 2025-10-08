@@ -12,12 +12,12 @@ O objetivo principal deste projeto é demonstrar a utilização da ferramenta **
 
 Para garantir a segurança e o isolamento dos testes, foi configurado um ambiente de virtualização dedicado.
 
-* **Sistema Operacional Atacante:** Kali Linux (`<VERSÃO DO KALI>`)
-* **Sistema Operacional Alvo:** Metasploitable 2
-* **Software de Virtualização:** Oracle VM VirtualBox (`<VERSÃO DO VIRTUALBOX>`)
+* **Sistema Operacional Atacante:** Kali Linux (`[Kali Linux](https://www.kali.org/get-kali/)`)
+* **Sistema Operacional Alvo:** [Metasploitable 2](https://sourceforge.net/projects/metasploitable/)
+* **Software de Virtualização:** Oracle VM VirtualBox (`[Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)`)
 * **Configuração de Rede:**
     * **Tipo:** Rede Apenas de Anfitrião (Host-Only)
-    * **Justificativa:** Esta configuração cria uma rede privada e isolada, permitindo que as máquinas virtuais (Kali e Metasploitable 2) se comuniquem entre si, sem expor os serviços vulneráveis à rede local ou à internet.
+    * **Justificativa:** Esta configuração cria uma rede privada e isolada, permitindo que as máquinas virtuais (Kali e [Metasploitable 2](https://sourceforge.net/projects/metasploitable/)) se comuniquem entre si, sem expor os serviços vulneráveis à rede local ou à internet.
 * **Verificação de Conectividade:**
     * IP do Kali Linux: `192.168.56.101`
     * IP do Metasploitable 2: `192.168.56.102`
