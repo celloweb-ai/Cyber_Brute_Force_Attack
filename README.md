@@ -17,7 +17,7 @@ Para garantir a segurança e o isolamento dos testes, foi configurado um ambient
 * **Software de Virtualização:** [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * **Configuração de Rede:**
     * **Tipo:** Rede Apenas de Anfitrião (Host-Only)
-    * **Justificativa:** Esta configuração cria uma rede privada e isolada, permitindo que as máquinas virtuais (Kali e [Metasploitable 2](https://sourceforge.net/projects/metasploitable/)) se comuniquem entre si, sem expor os serviços vulneráveis à rede local ou à internet.
+    * **Justificativa:** Esta configuração cria uma rede privada e isolada, permitindo que as máquinas virtuais ([Kali Linux](https://www.kali.org/get-kali/) e [Metasploitable 2](https://sourceforge.net/projects/metasploitable/)) se comuniquem entre si, sem expor os serviços vulneráveis à rede local ou à internet.
 * **Verificação de Conectividade:**
     * IP do Kali Linux: `192.168.56.101`
     * IP do Metasploitable 2: `192.168.56.102`
