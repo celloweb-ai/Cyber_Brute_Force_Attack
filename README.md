@@ -54,7 +54,7 @@ Foram simulados três cenários de ataque distintos para avaliar a segurança de
 * **Resultado:**
     * **Sucesso!** Acesso obtido com as credenciais: `usuário: msfadmin`, `senha: msfadmin`.
     * **Evidência:**
-        `![Sucesso FTP](./images/ftp-success.png)`
+        `![Sucesso FTP](https://github.com/celloweb-ai/Cyber_Brute_Force_Attack/blob/main/images/ftp-success.png)`
 
 ---
 
