@@ -102,7 +102,7 @@ Foram simulados três cenários de ataque distintos para avaliar a segurança de
 * **Resultado:**
     * **Sucesso!** Acesso obtido para o usuário `msfadmin` com a senha `msfadmin`.
     * **Evidência:**
-        `![Sucesso SMB](./images/smb-success.png)`
+        ![Sucesso FTP](https://github.com/celloweb-ai/Cyber_Brute_Force_Attack/blob/main/images/smb-success.png)
 
 ---
 
