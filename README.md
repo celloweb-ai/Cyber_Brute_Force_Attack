@@ -75,7 +75,7 @@ Foram simulados três cenários de ataque distintos para avaliar a segurança de
 * **Resultado:**
     * **Sucesso!** Acesso obtido com as credenciais: `usuário: admin`, `senha: password`.
     * **Evidência:**
-        ![Sucesso DVWA]((https://github.com/celloweb-ai/Cyber_Brute_Force_Attack/blob/main/images/dvwa-success.png).
+        ![Sucesso DVWA](https://github.com/celloweb-ai/Cyber_Brute_Force_Attack/blob/main/images/dvwa-success.png)
 
 ---
 
